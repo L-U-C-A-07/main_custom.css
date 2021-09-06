@@ -645,6 +645,7 @@ span.chatMsg {
     border-right: solid 5px darkorange;
     border-top: double 20px darkorange;
     border-bottom: double 20px darkorange;
+    padding-top: 0px;
 }
 .debugInfo {
     position: absolute;
@@ -742,7 +743,7 @@ b {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
 #instructionsUpdate {
     background-color: black;
@@ -765,5 +766,11 @@ b {
 }
 #ammoMax {
     color: darkorange;
+}
+#itemViewPop, #itemPurcPop {
+    background-color: black;
+    border: solid 5px darkorange !important;
+    border-radius: 100px;
+    padding: 40px
 }
 /* css made by: L-U-C-A-07 */
