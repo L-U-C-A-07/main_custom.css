@@ -1,0 +1,576 @@
+/* aquamarine_css */
+/* css made by L-U-C-A */
+/* V 0.2 */
+
+.endAHolder, div#aHider, #endAMerger, #termsInfo, #mapInfoHolder, #voiceDisplay, #tlInfHold, .menuItemTitle, #newsHolder, #rankedSoonTm, #menuClassNameTag, #menuClassSubtext, #menuClassName, #chatSwitchHolder, #faceItIconM, .headerBarRight, ::-webkit-scrollbar-thumb {
+    display: none !important;
+}
+
+#menuItemContainer {
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    height: 150px;
+    background-color: #000;
+    border-top: solid 10px aquamarine;
+}
+
+.material-icons-outlined {
+    background-color: #505050;
+    width: 100px;
+    height: 100px;
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 400px;
+    color: aquamarine !important;
+}
+
+#subLogoButtons {
+    background-color: black;
+    width: 38%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border: solid 10px aquamarine;
+    padding-top: 20px;
+    bottom: 70px;
+    border-radius: 80px;
+}
+
+.button.small {
+    border: none !important;
+    border-bottom: solid 5px aquamarine !important;
+    border-radius: 7px;
+    color: aquamarine;
+}
+
+.menuItem:hover .menBtnIcn {
+    transform: scale(1.1);
+    color: #fff !important;
+}
+
+.button:hover {
+    border: 4px solid aquamarine !important;
+    color: #fff !important;
+    transform: scale(1);
+    border-radius: 100px !important;
+}
+
+#uiBase.onMenu #chatHolder {
+    left: 1%;
+    top: 55%;
+}
+
+.chatMsg {
+    color: aquamarine !important;
+}
+
+#chatList {
+    background-color: #0000009e;
+    border: solid 5px aquamarine;
+    border-radius: 30px;
+    text-align: center;
+    height: 450px;
+    bottom: 12%;
+}
+
+#chatInputHolder {
+    position: relative;
+    bottom: 112%;
+    background-color: #0000009e;
+    border: solid 5px aquamarine;
+    border-radius: 30px;
+    color: #fff;
+}
+
+#chatInput {
+    background-color: transparent;
+    border:none;
+}
+
+#chatInputHolder:hover {
+    background-color: #0000009e;
+    border: dashed 4px aquamarine;
+}
+
+#uiBase.onMenu #spectButton {
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input:checked + .sliderSml:before {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(13px);
+    transform: translateX(0px);
+}
+
+.sliderSml {
+    left: 15px;
+    width: 17px;
+    transform: scale(3);
+}
+
+.sliderSml:before {
+    height: 9px;
+    width: 9px;
+    left: 4px;
+    bottom: 4px;
+}
+
+input:checked + .sliderSml {
+    background-color: aquamarine;
+}
+
+.headerBar {
+    background-color: transparent;
+}
+
+.buttonO {
+    border: none !important;
+    border-bottom: 5px solid aquamarine !important;
+    border-radius: 7px !important;
+    background-color: #0000009e;
+}
+
+.button:hover {
+    border: 4px solid aquamarine !important;
+    color: #fff !important;
+    transform: scale(1);
+    border-radius: 100px !important;
+}
+
+#menuClassContainer {
+    top: 700px;
+}
+
+#classPreviewCanvas {
+    margin-bottom: 0px;
+}
+
+#policeButton {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+#customizeButton {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+    color: aquamarine;
+}
+
+#menuWindow.dark {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #000;
+}
+
+.material-icons {
+    color: aquamarine !important;
+}
+
+.headerBar div {
+    color: aquamarine;
+}
+
+.accountInput {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+    color: aquamarine;
+}
+
+.accountInput:hover {
+    border: dashed 5px aquamarine !important;
+    color: #fff;
+}
+
+#menuWindow.dark div {
+    color: aquamarine;
+}
+
+.accBtn.button.buttonP {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.accBtn.button.buttonG {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.accBtn.button.buttonP:hover {
+    border: dashed 5px aquamarine !important;
+    color: white;
+}
+
+.accBtn.button.buttonG:hover {
+    border: dashed 5px aquamarine !important;
+    color: white;
+}
+
+#claimPop {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+}
+
+.buttonCL {
+    border-radius: 30px;
+    background-color: #0000009e !important;
+}
+
+.bigMenTabA {
+    border-bottom: 5px solid aquamarine;
+}
+
+.bigMenTab:hover {
+    border-bottom: 5px solid #fff;
+}
+
+#mLevelCont {
+    background-color: transparent;
+}
+
+.progressBar {
+    border-radius: 30px;
+    border: solid 2px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.progressBarInner {
+    background-image: linear-gradient(to right,#fff,aquamarine,100%,white);
+    border-radius: 100px;
+}
+
+.button.buttonR.readAll {
+    border-radius: 10px;
+    border: solid 2px aquamarine !important;
+    background-color: #0000009e;
+}
+
+a {
+    color: aquamarine;
+}
+
+.followBack {
+    border: solid 4px #fff !important;
+}
+
+.mailFrom {
+    border-bottom-color: white;
+}
+
+.setHed {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.setHed:hover {
+    cursor: default;
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+#profilePicM {
+    border: solid 5px aquamarine !important;
+}
+
+.xpBar {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.xpBarV {
+    background-image: linear-gradient(to right,#fff,aquamarine,100%,white);
+    border-radius: 100px;
+    height: 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.button.buttonG {
+    border-radius: 30px;
+    border: solid 5px #fff !important;
+    background-color: #0000009e;
+}
+
+.button.buttonR {
+    border-radius: 30px;
+    border: solid 5px #fff !important;
+    background-color: #0000009e;
+}
+
+.folPfp {
+    border: solid 5px aquamarine !important;
+}
+
+a.menuLink {
+    color: aquamarine !important;
+}
+
+.setHedS {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.setHedS:hover {
+    cursor: default;
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.smlInput {
+    border-radius: 30px;
+    border: solid 3px #fff !important;
+    background-color: #0000009e;
+}
+
+#menuBtnBrowser.button.small.buttonR {
+    border-radius: 7px;
+    border: none !important;
+    border-bottom: 5px solid aquamarine !important;
+}
+
+#menuBtnBrowser.button.small.buttonR:hover {
+    border-radius: 7px;
+    border: 5px solid aquamarine !important;
+}
+
+#creatorCodeI {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.creatorCodeBtn {
+    background-color: aquamarine !important;
+    color: white !important;
+    border-radius: 30px;
+}
+
+.crftRcpeCrd {
+    border-bottom: aquamarine 5px solid;
+}
+
+.challMapCrd {
+    border: solid 4px aquamarine !important;
+}
+
+.material-icons-outlined {
+    background-color: transparent;
+}
+
+#itemSearchH, .hostHeader, .serverHeader, #stickyHostH, .settingsHeader, #bindsHeader {
+    background-color: #000;
+}
+
+#mdSrch {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.searchBtn {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+#mpSrch {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.slider, .sliderM {
+    border-radius: 30px;
+    background-color: #3737379e;
+}
+
+.slider:before {
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
+input:checked+.slider {
+    background-color: #a4a4a4;
+}
+
+input:checked+.optCheck {
+    background-color: aquamarine;
+}
+
+.slide.purejscarousel-slide {
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slideImg {
+    border-radius: 30px;
+}
+
+.classCard, .selectorItem, .skinCard {
+    border-radius: 30px;
+    border: solid 4px aquamarine !important;
+    background-color: #0000009e;
+    opacity: 1;
+    margin: 4px;
+}
+
+.skinCard {
+    border-radius: 15px;
+    border: solid 3px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.classXPBar {
+    border-radius: 30px;
+    border: solid 4px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.clsXPBarC {
+    border-radius: 30px;
+    background-image: linear-gradient(to right,#fff,aquamarine,100%,white);
+}
+
+.custContainer, .contCanSelect {
+    border-radius: 30px;
+    border: solid 4px aquamarine !important;
+    background-color: #0000009e;
+    opacity: 1;
+    width: 306px;
+}
+
+#policePopC {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #505050;
+}
+
+#trustProg {
+    border-radius: 30px;
+    border: solid 4px aquamarine !important;
+    background-color: #0000009e;
+}
+
+#trustPrgHD {
+    border-radius: 30px;
+    background-image: linear-gradient(to right,#fff,aquamarine,100%,white);
+}
+
+#topLeftHolder {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50% !important;
+    top: 5%;
+}
+
+#curGameInfo {
+    display: none;
+}
+
+.debugInfo {
+    position: absolute;
+    left: -500%
+}
+
+#timerDisplay {
+    background-color: transparent;
+    border-bottom: double 10px black;
+    border-top: double 10px black;
+}
+
+#hudClassImg {
+    border-radius: 100px;
+}
+
+.healthBarSeg {
+    height: 40px;
+    width: 90px;
+    border-radius: 100px;
+}
+
+.hpBSeg {
+    border-radius: 100px;
+    background-color: aquamarine !important;
+}
+
+#healthValueHolder {
+    border-bottom: solid 5px aquamarine;
+}
+
+#igXPBarProg {
+    background-image: linear-gradient(to right,#fff,aquamarine,100%,white) !important;
+    opacity: 1;
+}
+
+#leaderDisplay, .countIcon {
+    border-radius: 20px;
+    border: solid 5px aquamarine !important;
+    background-color: #000;
+}
+
+#weapDisplay {
+    bottom: 10%;
+    right: 54%;
+    transform: translate(-50%, -50%);
+    width: 0px;
+    transform: scale(1.3);
+}
+
+#instructionsUpdate {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #000;
+}
+
+#killCardHolder{
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #000;
+    width: 500px;
+}
+
+.weapItem {
+    background-color: aquamarine;
+}
+
+.endCard {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
+
+.matchVote {
+    border-radius: 30px;
+    border: solid 5px aquamarine !important;
+    background-color: #0000009e;
+}
