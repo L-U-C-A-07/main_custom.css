@@ -1,9 +1,19 @@
 /* aquamarine_css */
 /* css made by L-U-C-A */
-/* V 0.4 */
+/* V 0.5 */
 
 #termsInfo, #mapInfoHolder, #voiceDisplay, #tlInfHold, .menuItemTitle, #newsHolder, #rankedSoonTm, #menuClassNameTag, #menuClassSubtext, #menuClassName, #chatSwitchHolder, #faceItIconM, .headerBarRight, ::-webkit-scrollbar-thumb {
     display: none !important;
+}
+
+#endAContainer,
+#endAMerger,
+.endAHolder,
+#aContainer,
+#aMerger,
+#aHolder,
+.settingsBtn[style="width:auto;background-color:#994cd1"] {
+    display: none !important
 }
 
 #menuItemContainer {
